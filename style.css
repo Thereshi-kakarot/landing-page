@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --hero-bg: #1f2937;
+    --main-font: "Roboto";
+    --main-font-color: #f9faf8;
+    --secondary-font-size: 18px;
+    --hero-logo-size: 24px;
+    --button-color:#3882f6;
+    --information-color: #1f2937;
+}
+
+.nav{
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 30px;
+    background-color: var(--hero-bg);
+}
+.hero{
+    background-color: var(--hero-bg)
+;}
