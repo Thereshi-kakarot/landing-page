@@ -17,6 +17,9 @@
     --section-padding:  0 100px;
     --info-font-size: 36px;
     --info-font-weight: 900;
+    --quote-section-bg: #e5e7eb;
+    --quote-font-size: 36px;
+    --quote-font-weight: 300;
 }
 
 nav{
@@ -140,3 +143,33 @@ nav ul li a {
     margin-top: 10px;
 }
 
+/* quote section */
+.quote {
+    background-color: var(--quote-section-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    padding: var(--section-padding);
+}
+.quote .quote-container {
+    max-width: 800px;
+    height: auto;
+    text-align: left;
+    padding: 20px;
+}
+.quote .quote-container p {
+    color: var(--hero-bg);
+    font-family: var(--main-font);
+    font-size: var(--quote-font-size);
+    font-weight: var(--quote-font-weight);
+}
+.quote .quote-container .quote-h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+.quote .quote-container .quote-h3 h3{
+    margin-right: 0;
+    margin-top: 10px;
+}
