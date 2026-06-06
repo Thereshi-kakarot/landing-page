@@ -21,7 +21,7 @@
     --quote-font-size: 36px;
     --quote-font-weight: 300;
 }
-
+/* nav */
 nav{
     display : flex;
     justify-content: space-between;
@@ -48,7 +48,7 @@ nav ul li a {
     cursor: pointer;
     text-decoration: none;
 }
-
+/* hero section */
 .hero{
     background-color: var(--hero-bg);
     display: flex;
@@ -173,7 +173,7 @@ nav ul li a {
     margin-right: 0;
     margin-top: 10px;
 }
-
+/* cta section */
 .cta {
     background-color: var(--main-font-color);
     display: flex;
