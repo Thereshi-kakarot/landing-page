@@ -173,3 +173,49 @@ nav ul li a {
     margin-right: 0;
     margin-top: 10px;
 }
+
+.cta {
+    background-color: var(--main-font-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+.cta .cta-container {
+    display: flex;
+    align-items: center;
+    background-color: var(--button-color);
+    padding: 20px 50px;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 80%;
+}
+.cta .cta-container h3 {
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+    font-size: var(--info-font-size);
+   
+}
+.cta .cta-container p {
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+}
+.cta .cta-container button {
+    background-color: var(--button-color);
+    color: var(--main-font-color);
+    font-family: var(--main-font);
+    border: 1px solid var(--main-font-color);
+    padding: 15px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: var(--hero-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    color: var(--main-font-color);
+}
